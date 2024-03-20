@@ -22,3 +22,41 @@ img {
 p {
     margin: 20px 0; /* Add some margin around paragraphs */
 }
+/* Navbar styles */
+.navbar {
+    background-color: rgb(7, 10, 7);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    color: cream;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.nav-links li {
+    display: inline;
+    color: white;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+/* Content styles */
+.content {
+    text-align: center;
+    padding: 20px;
+}
