@@ -1,0 +1,24 @@
+body {
+    background-color: rgb(2, 41, 2); /* Set background color to forest green */
+    color: rgb(230, 223, 223); /* Set text color to cream */
+    text-align: center; /* Center align all text */
+    font-family: Arial, sans-serif; /* Set font family */
+}
+
+/* Style for headings */
+h1, h2, h3 {
+    margin: 20px 0; /* Add some margin around headings */
+}
+
+/* Style for images */
+img {
+    display: block; /* Make image a block element */
+    margin: 0 auto; /* Center align image */
+    max-width: 100%; /* Ensure image doesn't exceed its container width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Style for paragraphs */
+p {
+    margin: 20px 0; /* Add some margin around paragraphs */
+}
