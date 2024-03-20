@@ -1,0 +1,2 @@
+# RamHack static page
+ 
