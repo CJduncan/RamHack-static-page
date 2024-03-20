@@ -60,3 +60,58 @@ p {
     text-align: center;
     padding: 20px;
 }
+
+/* about page style */
+
+  .officers-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  .officer-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 150px;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .officer-card h3 {
+    margin-top: 0;
+    margin-bottom: 0.5em; /* Adjust the margin as needed */
+    color: #333;
+    height: 3em; /* Set a fixed height for all h3 elements */
+  }
+  .officer-card p {
+    color: #666;
+    font-size: 0.9em;
+  }
+  .initials-circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    margin: 0 auto 1em; /* Add space below the circle */
+    color: #555;
+  }
+  .full-roster {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  /* Add flex-grow to push the name to the bottom */
+  .officer-card .title-container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  
+  
